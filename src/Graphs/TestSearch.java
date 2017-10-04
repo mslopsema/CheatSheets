@@ -13,7 +13,7 @@ public class TestSearch {
         final int NODES = Integer.parseInt(sIn[0]);
         final int LINKS = Integer.parseInt(sIn[1]);
         
-        SearchAlgorithm algoBase = new SearchAlgorithm(NODES);
+        SearchAlgorithm algoBase = new SearchDepthFirst(NODES);
         for (int i = 0; i < LINKS; i++) {
             String[] sLinks = br.readLine().split(" ");
             algoBase.addLink(Integer.parseInt(sLinks[0]),
