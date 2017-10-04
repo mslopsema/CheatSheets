@@ -4,11 +4,13 @@ import java.util.HashMap;
 
 public class Node {
     
-    public HashMap<Integer, Integer> links;
-    public int id;
+    public HashMap<Integer, Integer> links; // NodeId / LinkLength (weight)
+    public Integer distance; // From Origin
+    public Integer ID;
     
-    public Node(int id) {
+    public Node(int ID) {
         links = new HashMap<Integer, Integer>();
-        this.id = id;
+        this.ID = ID;
+        distance = 0;
     }
 }
