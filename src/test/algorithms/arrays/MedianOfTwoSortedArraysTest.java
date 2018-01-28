@@ -1,13 +1,12 @@
 package test.algorithms.arrays;
 
-import main.Algorithms.arrays.MedianOfTwoSortedArrays;
+import main.algorithms.arrays.MedianOfTwoSortedArrays;
 import org.junit.Test;
 import utils.ArrayBuilder;
 
 import java.util.Arrays;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
 
 public class MedianOfTwoSortedArraysTest {
 

@@ -1,6 +1,4 @@
-package main.Algorithms.arrays;
-
-import java.util.Arrays;
+package main.algorithms.arrays;
 
 /**
  * Median of Two Sorted Arrays
