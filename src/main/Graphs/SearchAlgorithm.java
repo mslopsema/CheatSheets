@@ -6,7 +6,7 @@ import java.util.HashSet;
 import utils.Node;
 
 /**
- * Base Class for Graph Searching Algorithms
+ * Base Class for Graph Searching main.Algorithms
  * @author Mike
  */
 public abstract class SearchAlgorithm {

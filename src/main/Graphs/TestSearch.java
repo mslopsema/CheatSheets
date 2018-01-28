@@ -8,7 +8,7 @@ import java.util.List;
 
 public class TestSearch {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("src/Graphs/TestFile.test"));
+        BufferedReader br = new BufferedReader(new FileReader("src/main.Graphs/TestFile.test"));
         String[] sIn = br.readLine().split(" ");
         final int NODES = Integer.parseInt(sIn[0]);
         final int LINKS = Integer.parseInt(sIn[1]);

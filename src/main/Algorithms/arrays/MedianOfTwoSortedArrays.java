@@ -1,4 +1,4 @@
-package Algorithms.arrays;
+package main.Algorithms.arrays;
 
 /**
  * Median of Two Sorted Arrays

@@ -6,7 +6,7 @@
 
     <groupId>groupId</groupId>
     <artifactId>CheatSheets</artifactId>
-    <version>0.22-alpha</version>
+    <version>0.1-alpha</version>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/junit/junit -->

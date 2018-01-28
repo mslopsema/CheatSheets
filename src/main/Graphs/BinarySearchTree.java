@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 import utils.TreeNode;
-//import utils.TestTools;
+//import main.utils.TestTools;
 
 public class BinarySearchTree {
     public static void main(String[] args) {

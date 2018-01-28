@@ -1,5 +1,6 @@
-package Algorithms.arrays;
+package test.algorithms.arrays;
 
+import main.Algorithms.arrays.MedianOfTwoSortedArrays;
 import org.junit.Test;
 
 public class MedianOfTwoSortedArraysTest {
