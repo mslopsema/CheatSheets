@@ -1,5 +1,7 @@
 package main.Algorithms.arrays;
 
+import java.util.Arrays;
+
 /**
  * Median of Two Sorted Arrays
  * https://leetcode.com/problems/median-of-two-sorted-arrays/description/
@@ -52,12 +54,18 @@ public class MedianOfTwoSortedArrays {
                 b++;
             }
         }
+        /*
+        System.out.println(Arrays.toString(arr1));
+        System.out.println(Arrays.toString(arr2));
+        System.out.println(Arrays.toString(fullArr));
+        System.out.println(fullArr.length);
+        */
 
         if (fullArr.length % 2 == 0) {
             int med = fullArr.length / 2;
-            return (fullArr[med] + fullArr[med]) / (double) 2;
+            return (fullArr[med - 1] + fullArr[med]) / (double) 2;
         } else {
-            return fullArr[fullArr.length / 2 + 1];
+            return fullArr[fullArr.length / 2];
         }
     }
 }
