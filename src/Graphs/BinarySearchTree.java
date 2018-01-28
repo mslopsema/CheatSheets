@@ -3,8 +3,8 @@ package Graphs;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-import Trees.TreeNode;
-import utils.TestTools;
+import utils.TreeNode;
+//import utils.TestTools;
 
 public class BinarySearchTree {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class BinarySearchTree {
         int size = sc.nextInt();
         sc.close();
         
-        int[] arr = TestTools.randomArray(size, size);
+        int[] arr = {};//TestTools.randomArray(size, size);
         BinarySearchTree bst = new BinarySearchTree(size / 2);
         for (int i : arr) bst.add(i);
         System.out.println("Size : " + bst.size() + " Height : " + bst.height());
